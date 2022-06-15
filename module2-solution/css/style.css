@@ -1,14 +1,85 @@
 /********** General CSS **********/
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 
+.container {
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+section {
+    padding: 0 10px 20px 10px;
+    box-sizing: border-box;
+}
+
+.item {
+    background-color: #AAA;
+    border: 1px solid #000;
+    margin: 0;
+}
+
+.item > h2 {
+    margin: 0 0 10px 0;
+    padding: 5px 25px;
+    border: 1px solid #000;
+    float: right;
+    position: relative;
+    top: -1px;
+    right: -1px;
+}
+
+.item > p {
+    clear: both;
+    margin: 10px 10px 20px 10px;
+}
+
+#chicken {
+    background-color: #D59998;
+}
+
+#beef {
+    background-color: #C14643;
+    color: #FFF;
+}
+
+#sushi {
+    background-color: #E5D198;
+}
+
+.end {
+    clear: both;
+}
 
 /********** Desktop view **********/
 @media (min-width: 992px) {
+    section {
+        float: left;
+    }
 
+    .col-lg-4 {
+        width: 33.33%;
+    }
 }
 
 /********** Tablet view CSS **********/
 @media (min-width: 768px) and (max-width: 991px) {
+    section {
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
 
 }
 
