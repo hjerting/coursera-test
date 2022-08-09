@@ -1,0 +1,95 @@
+body {
+    background-color: #FFF;
+    color: #000;
+}
+
+.navbar {
+    background-color: #999;
+    border: 3px solid #000;
+    border-radius: 0;
+}
+
+div.navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+.navbar-default .navbar-collapse {
+    border: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    background-color: #FFF;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav .navbar-collapse li {
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+nav .navbar-collapse li:first-child {
+    border-top: 3px solid #000;
+}
+
+nav .navbar-collapse li:last-child {
+    border-bottom: 0;
+}
+
+.navbar-collapse ul {
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #999;
+    border: 2px solid #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+section {
+    background-color: #999;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 1.7em;
+    margin: 0 0 10px 0;
+}
+
+
+/********** Mobile view CSS **********/
+@media (max-width: 767px) {
+
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
